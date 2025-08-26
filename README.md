@@ -1,0 +1,1 @@
+# Library CLI (Java)\n\n- 3-Schichten-Architektur (CLI/Service/Persistenz via jOOQ/SQLite)\n- Ausführen:\n\n\n

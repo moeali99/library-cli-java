@@ -1,0 +1,1 @@
+name: Java CI\non: [push, pull_request]\njobs:\n  build:\n    runs-on: macos-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-java@v4\n        with:\n          distribution: temurin\n          java-version: '17'\n      - name: Build with Maven\n        run: mvn -q -DskipTests package\n
